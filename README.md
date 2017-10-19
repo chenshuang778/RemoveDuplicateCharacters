@@ -1,12 +1,10 @@
 # RemoveDuplicateCharacters
 Using an Object instance to remove duplicate characters from an array
-
-Here is code:
-<script>
+```<script>
 	// Test arry
 	var arry = [1,2,2,3,4,5,5,10];
 	var obj= {};
-
+	
 	// Using object property uniqueness to remove the duplicate characther
 	for (var i=0; i<arry.length; i++) {
 		obj[arry[i]] = true;
@@ -21,3 +19,4 @@ Here is code:
 	// Print arry in browser console
 	console.log(arry);
 </script>
+```
